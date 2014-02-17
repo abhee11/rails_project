@@ -74,7 +74,7 @@ RailsProject::Application.configure do
 
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
-
+config.action_mailer.default_url_options = {:host => 'http://abhinav-projects.com'}
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 end
