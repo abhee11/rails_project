@@ -7,6 +7,8 @@ gem 'coffee-rails', '~> 4.0.0'
 ruby '1.9.3'
 gem 'aws-sdk','~>1.0'
 gem 'jquery-rails'
+gem 'masonry-rails',"~>0.2.0"
+gem 'jquery-turbolinks'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
